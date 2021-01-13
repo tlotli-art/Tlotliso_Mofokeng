@@ -1,5 +1,5 @@
 
-
+/*Style everything in the body of the html document*/
 body{
 	background-color:#f4f4f4;
 	color:#555555;
@@ -8,12 +8,13 @@ body{
 	margin:0;
 	}
 
-
+/* style everything in container class*/
 .container{
 	width:80%;
 	margin:auto;
 }	
-	
+
+/* style everything in box-1 class*/	
 .box-1{
 
 	border-left: 5px coral solid;
@@ -26,7 +27,7 @@ body{
 	margin:20px, 0; 
 
 }
-
+/* Udjust Picture*/
 .pic-box{
 	width: 50%;
 	margin: auto;
@@ -34,15 +35,15 @@ body{
 	
 }
 
+/*Style aspects in first box*/
 .box-1 h3{
 	font-family: Tahoma;
 	font-weight:800;
 	font-style:italic;
-	text-decoration:underline;
 	text-transform: uppercase;
 	
 }
-
+/*Style aspects in second box*/
 .box-2{
 	border: 3px dotted #cccccc;
 	border-left: cyan solid;
@@ -53,59 +54,87 @@ body{
 	
 }
 
+/*align first heding in container class*/
 .container h1{
 	text-align: center;
 }
 
+/*align second heding in container class*/
 .container h2{
 	text-align: center;
 }
 
+/* align third heading in container class*/
 .container h3{
 
 	text-align: center;
 	
 }
 
+/* Change text style in the class*/
 a{
 	text-decoration: none;
 	color: #000000;
 }
 
-a:hover{
-	color:red;
-}
-
-a:active{
-	color:green;
-}
-
-a:visited{
-	color:black;
-}
-
-.container ul{
-	text-align:center;
-	list-style-type: none;
-	
-}
-
+/* edit box-1 paragraph font*/
 .box-1 p{
 	
 	font-size: 12px;
-
 }
 
+/*edit font style and padding of box-2 class unodered List*/
 .box-2 li{
 
 	font-size: 12px;
 	padding-right: 40px;
 }
 
+/*Udjust the third box*/
+.box-3{
+	
+	width: 100%;
+	overflow: auto;
+}
+
+/*Udjust the icons in the class*/
+.box-3 a{
+	
+	float:center;
+	width:20%;
+	text-align: center;
+	padding:12px -15;
+	transition: all 0.3s ease;
+	font-size: 36px;
+	
+}
+
+/*Remove any stylesd on the list*/
+ul{
+	
+	list-style-type: none;
+
+}
+
+/* unround the images in the third box*/
+.box-3 img{
+
+	border-radius: 0%;
+
+}
+
+.pic-box img{
+
+	max-width: 100%;
+	height: auto;
+
+}	
+
+
+/* Change image shape*/
 img{
 
-border-radius: 50%;
-	
+	border-radius: 50%;
 }
 
 
